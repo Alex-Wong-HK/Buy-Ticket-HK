@@ -1,2 +1,3 @@
 #!/bin/bash
-python3 /Users/shing/WorkSpace/sideProject/Website/MaxUrbtixBusyBot/max_urbtix_busy.py
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+python3 ${SCRIPT_DIR}/ticket_busy_bot.py
